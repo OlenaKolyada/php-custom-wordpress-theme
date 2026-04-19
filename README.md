@@ -1,6 +1,6 @@
 # MLBA — Mikhalev Lanssens Ballet Academy
 
-[![DEMO](https://img.shields.io/badge/DEMO-mlba.fr-blue?style=for-the-badge)](https://mlba.fr)
+[Demo](https://mlba.fr)
 
 Custom WordPress theme for the **Mikhalev Lanssens Ballet Academy** website (Pessac, France).
 
