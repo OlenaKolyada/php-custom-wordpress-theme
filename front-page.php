@@ -36,18 +36,18 @@ get_header();
 <!--Hero END-->
 
 <!--	Annonces START-->
-    <section class="section-wrap" id="main-annonces">
-        <div class="container">
-            <div class="section-row">
-                <div class="section-content-center">
-                    <div class="section-text">
-                        <h2 class="title-has-subtitle"><a href="<?php echo get_permalink(389); ?>">Stage Mars 2026</a></h2>
-                            <p class="subtitle">14-15 mars 2026</p>
-                            <p class="annonce-body">La Mikhalev Lanssens Ballet Academy (MLBA) propose un workshop de danse classique et néoclassique sur deux jours à Pessac, en présence d’Emmanuel Grizot, Maîtresse de ballet, Danseuse Etoile et chorégraphe, ainsi que des deux directeurs et professeurs de la MLBA, Corinne Lanssens et Roman Mikhalev.</p>
-                            <p class="cursive"><a href="<?php echo get_permalink(389); ?>">M'inscrire</a></p>
-
-                    </div>
-                </div>
+<!--    <section class="section-wrap" id="main-annonces">-->
+<!--        <div class="container">-->
+<!--            <div class="section-row">-->
+<!--                <div class="section-content-center">-->
+<!--                    <div class="section-text">-->
+<!--                        <h2 class="title-has-subtitle"><a href="--><?php //echo get_permalink(389); ?><!--">Stage Mars 2026</a></h2>-->
+<!--                            <p class="subtitle">14-15 mars 2026</p>-->
+<!--                            <p class="annonce-body">La Mikhalev Lanssens Ballet Academy (MLBA) propose un workshop de danse classique et néoclassique sur deux jours à Pessac, en présence d’Emmanuel Grizot, Maîtresse de ballet, Danseuse Etoile et chorégraphe, ainsi que des deux directeurs et professeurs de la MLBA, Corinne Lanssens et Roman Mikhalev.</p>-->
+<!--                            <p class="cursive"><a href="--><?php //echo get_permalink(389); ?><!--">M'inscrire</a></p>-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
 <!--                <div class="section-content-text">-->
 <!--                    <div class="annonces">-->
 <!--                        <h2 class="title-has-subtitle"><a href="--><?php //echo get_permalink(278); ?><!--">Stage Décembre 2025</a></h2>-->
@@ -64,9 +64,9 @@ get_header();
 <!--                        <p class="cursive"><a href="--><?php //echo get_permalink(364); ?><!--">M'inscrire</a></p>-->
 <!--                    </div>-->
 <!--                </div>-->
-            </div>
-        </div>
-    </section>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 <!--	Annonces END-->
 
 
