@@ -305,7 +305,7 @@ section:nth-child(even) {
 }
 
 #planning .schedule-item h5 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 
@@ -367,9 +367,12 @@ section:nth-child(even) {
     background: #B2ECE2;
 }
 
-#planning .cours-particuliers,
 #planning .preparation-concours {
     background: var(--grey-extra-light);
+}
+
+#planning .cours-particuliers {
+    background: var(--grey-light);
 }
 
 #planning .section-row,
@@ -413,6 +416,85 @@ section:nth-child(even) {
 .modal-schedule .modal-close {
     position: absolute;
 }
+
+#planning .level-ages {
+    margin-top: 3rem;
+    padding: 2rem 2.25rem;
+    border: 1px solid var(--grey-light);
+    border-radius: 3px;
+    color: var(--black);
+}
+
+#planning .level-ages-title {
+    margin: 0 0 2.75rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 2rem;
+    line-height: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+#planning .level-ages-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 2rem;
+    align-items: start;
+}
+
+#planning .level-ages-group {
+    min-width: 0;
+}
+
+#planning .level-ages-group + .level-ages-group {
+    padding-left: 2.5rem;
+    border-left: 1px solid #d7d7d7;
+}
+
+#planning .level-ages-group h3 {
+    margin: 0 0 1.5rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.5rem;
+    line-height: normal;
+    font-weight: 100;
+    text-align: center;
+}
+
+#planning .level-ages-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+#planning .level-ages-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#planning .level-ages-list li {
+    margin: 0 0 0.625rem;
+    line-height: 1.45;
+}
+
+#planning .level-ages-list strong {
+    font-weight: 700;
+}
+
+@media (max-width: 1120px) {
+    #planning .level-ages {
+        padding: 1.75rem;
+    }
+
+    #planning .level-ages-grid {
+        column-gap: 2rem;
+    }
+
+    #planning .level-ages-group + .level-ages-group {
+        padding-left: 2rem;
+    }
+}
+
 /*Planning END*/
 
 /*Tarifs START*/
@@ -787,6 +869,109 @@ section:nth-child(even) {
         font-size: 0.6rem;
     }
 
+    #planning .schedule-table {
+        display: none;
+    }
+
+    #planning .schedule-mobile {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        border-bottom: 1px solid var(--grey-light);
+        border-radius: 3px;
+    }
+
+    #planning .schedule-mobile .day-block {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0 3rem;
+        border-bottom: 1px solid var(--grey-light);
+    }
+
+    #planning .schedule-mobile .day-block:last-of-type {
+        border-bottom: none;
+    }
+
+    #planning .schedule-mobile .morning,
+    #planning .schedule-mobile .afternoon,
+    #planning .schedule-mobile .evening {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #planning .schedule-mobile .day-block-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #planning .schedule-mobile .day-block-row > a.popup-schedule {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #planning .schedule-mobile .schedule-item {
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        text-align: center;
+        width: calc(100% - 1rem);
+        max-width: 22rem;
+        font-size: 1rem;
+    }
+
+    #planning .schedule-mobile .schedule-item h5 {
+        font-size: 1rem;
+    }
+
+    #planning .level-ages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #planning .level-ages {
+        margin-top: 2.5rem;
+        padding: 1.5rem 0;
+        border: 0;
+        border-bottom: 1px solid var(--grey-light);
+        border-radius: 3px;
+    }
+
+    #planning .level-ages-title {
+        margin-bottom: 2.25rem;
+    }
+
+    #planning .level-ages-group + .level-ages-group {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 0;
+        border-top: 0;
+        border-left: 0;
+    }
+
+    #planning .level-ages-group h3 {
+        margin-bottom: 18px;
+    }
+
+    #planning .level-ages-columns {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    #planning .level-ages-list li {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    #planning .level-ages-group-contemporary .level-ages-list {
+        max-width: none;
+    }
+
     #tarifs .highlight {
         right: 3rem;
     }
@@ -830,61 +1015,6 @@ section:nth-child(even) {
     }
     #studio .swiper {
         aspect-ratio: 1/1;
-    }
-
-    #planning .schedule-table {
-        display: none;
-    }
-
-    #planning .schedule-table {
-        display: none;
-    }
-
-    #planning .schedule-mobile {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        border: 1px solid var(--grey-light);
-        border-radius: 3px;
-    }
-
-    #planning .schedule-mobile .day-block {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        padding: 1rem 1rem 3rem 1rem;
-        border-bottom: 1px solid var(--grey-light);
-    }
-
-    #planning .schedule-mobile .day-block:last-of-type {
-        border-bottom: none;
-    }
-
-    #planning .schedule-mobile .morning,
-    #planning .schedule-mobile .afternoon,
-    #planning .schedule-mobile .evening {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    #planning .schedule-mobile .day-block-row {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-    }
-
-    #planning .schedule-mobile .schedule-item {
-        padding: 0.5rem 1rem;
-        border-radius: 50px;
-        text-align: center;
-        width: 12rem;
-        font-size: 1rem;
-    }
-
-    #planning .schedule-mobile .schedule-item h5 {
-        font-size: 1rem;
     }
 
     #tarifs .tarif-table.mobile-only {
@@ -1119,6 +1249,35 @@ section:nth-child(even) {
         align-items: center;
     }
 
+    #planning .schedule-mobile .day-block {
+        align-items: stretch;
+    }
+
+    #planning .schedule-mobile .morning,
+    #planning .schedule-mobile .afternoon,
+    #planning .schedule-mobile .evening,
+    #planning .schedule-mobile .day-block-row,
+    #planning .schedule-mobile .day-block-row > a.popup-schedule,
+    #planning .schedule-mobile .schedule-item {
+        width: 100%;
+    }
+
+    #planning .schedule-mobile .schedule-item {
+        display: block;
+        max-width: none;
+        box-sizing: border-box;
+    }
+
+    #planning .level-ages-title {
+        width: 100%;
+        max-width: none;
+    }
+
+    #planning .level-ages-list li {
+        font-size: 0.875rem;
+        line-height: 1.35;
+    }
+
     #tarifs .mobile-only .first-cell {
         margin-left: 0;
         max-width: 10rem;
@@ -1158,10 +1317,7 @@ section:nth-child(even) {
         margin: 30px 0 30px 30px;
     }
 
-}
-
-@media screen and (max-width: 425px) {
-
+    
     .modal-schedule h3 {
         font-size: 1.3rem;
     }
@@ -1184,6 +1340,10 @@ section:nth-child(even) {
 }
 
 @media screen and (max-width: 375px) {
+    #planning .level-ages-title {
+        font-size: 1.75rem;
+    }
+
     #section-pro #presentation .frame,
     #section-pro #scolarite .frame {
         margin-top: 0;
