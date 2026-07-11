@@ -141,7 +141,8 @@ get_header();
                                     </a>
                                     <a href="#modal-contemporain-adultes-debutant-inter" class="popup-schedule">
                                         <div class="schedule-item contemporain-adultes-debutant-inter">
-                                            <h5>Contemporain Adultes Débutant‑Inter</h5>
+                                            <h5>Contemporain
+                                                Adultes Débutant‑Inter</h5>
                                             <span>19h15‑20h45 · S1</span>
                                         </div>
                                     </a>
@@ -173,18 +174,19 @@ get_header();
                                             <span>17h45‑19h15 · S1</span>
                                         </div>
                                     </a>
-                                    <a href="#modal-classique-adultes-inter-avance" class="popup-schedule">
-                                        <div class="schedule-item classique-adultes-inter-avance">
-                                            <h5>Classique Adultes Inter‑Avancé</h5>
-                                            <span>19h15‑20h45 · S1</span>
-                                        </div>
-                                    </a>
                                     <a href="#modal-contemporain-avance" class="popup-schedule">
                                         <div class="schedule-item contemporain-avance">
                                             <h5>Contemporain Avancé</h5>
                                             <span>19h00‑20h30 · S2</span>
                                         </div>
                                     </a>
+                                    <a href="#modal-classique-adultes-inter-avance" class="popup-schedule">
+                                        <div class="schedule-item classique-adultes-inter-avance">
+                                            <h5>Classique Adultes Inter‑Avancé</h5>
+                                            <span>19h15‑20h45 · S1</span>
+                                        </div>
+                                    </a>
+
                                 </div>
                                 <div class="schedule-cell">
                                     <a href="#modal-preparation-concours" class="popup-schedule">
@@ -309,8 +311,8 @@ get_header();
                                         >
                                             <div class="schedule-item contemporain-adultes-debutant-inter">
                                                 <h5>
-                                                    Contemporain Adultes
-                                                    Débutant‑Inter
+                                                    Contemporain
+                                                    Adultes Débutant‑Inter
                                                 </h5>
                                                 <span>19h15‑20h45 · S1</span>
                                             </div>
@@ -443,6 +445,18 @@ get_header();
                                         </a>
 
                                         <a
+                                                href="#modal-contemporain-avance"
+                                                class="popup-schedule"
+                                        >
+                                            <div class="schedule-item contemporain-avance">
+                                                <h5>
+                                                    Contemporain Avancé
+                                                </h5>
+                                                <span>19h00‑20h30 · S2</span>
+                                            </div>
+                                        </a>
+
+                                        <a
                                                 href="#modal-classique-adultes-inter-avance"
                                                 class="popup-schedule"
                                         >
@@ -454,20 +468,8 @@ get_header();
                                                 <span>19h15‑20h45 · S1</span>
                                             </div>
                                         </a>
-                                    </div>
 
-                                    <div class="day-block-row">
-                                        <a
-                                                href="#modal-contemporain-avance"
-                                                class="popup-schedule"
-                                        >
-                                            <div class="schedule-item contemporain-avance">
-                                                <h5>
-                                                    Contemporain Avancé
-                                                </h5>
-                                                <span>19h00‑20h30 · S2</span>
-                                            </div>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -840,7 +842,8 @@ get_header();
 
                 <div class="modal-schedule-wrap">
                     <h3>
-                        Contemporain Adultes Débutant‑Inter
+                        Contemporain
+                        Adultes Débutant‑Inter
                     </h3>
 
                     <div class="schedule-item contemporain-adultes-debutant-inter">
