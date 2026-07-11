@@ -315,43 +315,60 @@ section:nth-child(even) {
     border-right: 1px solid var(--grey-light);
 }
 
+#planning .eveil {
+    background: #CAFFFC;
+}
+
 #planning .init {
-    background: #f9dcf7;
+    background: #99D7FE;
 }
 
 #planning .elem-1 {
-    background: #abf0fc;
+    background: #B6E8F8;
 }
 
 #planning .elem-2 {
-    background: #aad3fc;
+    background: #C7EFF9;
 }
 
 #planning .elem-3 {
-    background: #dbb6fc;
+    background: #506FFF;
+    color: var(--white);
 }
 
-#planning .ado-avance {
-    background: #ddfbd0;
+#planning .classique-adultes-inter-avance {
+    background: #3093E4;
+    color: var(--white);
 }
 
-#planning .ado-contempo {
-    background: #fef7c0;
+#planning .contemporain-intermediare {
+    background: #96EBF1;
 }
 
-#planning .adulte-avance {
-    background: #fecdc0;
+#planning .contemporain-adultes-debutant-inter {
+    background: #46CFEB;
 }
 
-#planning .adulte-contempo {
-    background: #fadfac;
+#planning .classique-avance {
+    background: #0A4891;
+    color: var(--white);
 }
 
-#planning .barre {
-    background: #fef2e8;
+#planning .contemporain-debutant {
+    background: #00BBDC;
 }
 
-#planning .cours-particuliers {
+#planning .contemporain-avance {
+    background: #3658F8;
+    color: var(--white);
+}
+
+#planning .barre-a-terre {
+    background: #B2ECE2;
+}
+
+#planning .cours-particuliers,
+#planning .preparation-concours {
     background: var(--grey-extra-light);
 }
 
