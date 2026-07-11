@@ -204,6 +204,19 @@ add_action('wp_enqueue_scripts', 'localize_script');
 require get_template_directory() . '/inc/mlba-options.php';
 
 /**
+ * Ensure theme options are available on the frontend even if Redux does not
+ * populate the configured global variable for the current request.
+ */
+function mlba_bootstrap_theme_options() {
+    $options = get_option( 'mlba_options', array() );
+
+    if ( is_array( $options ) ) {
+        $GLOBALS['mlba_options'] = $options;
+    }
+}
+add_action( 'after_setup_theme', 'mlba_bootstrap_theme_options', 20 );
+
+/**
  * Add class to menu links with children
  */
 function add_menu_link_class($atts, $item, $args) {
