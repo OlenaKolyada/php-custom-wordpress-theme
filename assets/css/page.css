@@ -264,10 +264,10 @@ section:nth-child(even) {
 #planning .schedule-table {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--grey-light);
+    border: 0;
     width: 100%;
     min-width: 320px;
-    margin: 0 auto;
+    margin: -1rem auto 0;
     border-collapse: collapse;
     border-radius: 3px;
 }
@@ -275,44 +275,63 @@ section:nth-child(even) {
 #planning .schedule-row {
     display: flex;
     width: 100%;
+    gap: 0.3rem;
 }
 
 #planning .schedule-header {
     font-weight: bold;
     font-size: 1.3rem;
-    border-bottom: 1px solid var(--grey-light);
+    border-bottom: 0;
 }
 
 #planning .schedule-cell {
     flex: 1 1 0;
     min-width: 0;
-    padding: 0.5rem;
+    padding: 0.75rem;
     box-sizing: border-box;
     min-height: 2rem;
+    background: var(--grey-pearl);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+    justify-content: flex-start;
+}
+
+#planning .schedule-cell > a.popup-schedule {
+    display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+#planning .schedule-header .schedule-cell {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#planning .schedule-table .schedule-row:last-child .schedule-cell {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #planning .schedule-item {
     padding: 0.3rem 0.5rem;
     border-radius: 50px;
     text-align: center;
-    width: 11rem;
+    width: 100%;
+    max-width: 12.5rem;
     font-size: 0.7rem;
 }
 
 #planning .schedule-item h5 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 
 
 #planning .schedule-row:not(.schedule-header) .schedule-cell:not(:last-child),
 #planning .schedule-header .schedule-cell:not(:last-child) {
-    border-right: 1px solid var(--grey-light);
+    border-right: 0;
 }
 
 #planning .eveil {
@@ -367,11 +386,11 @@ section:nth-child(even) {
     background: #B2ECE2;
 }
 
-#planning .preparation-concours {
-    background: var(--grey-extra-light);
+#planning .cours-particuliers {
+    background: var(--grey-medium);
 }
 
-#planning .cours-particuliers {
+#planning .preparation-concours {
     background: var(--grey-light);
 }
 
@@ -383,7 +402,10 @@ section:nth-child(even) {
 
 #planning .section-content-text .section-text {
     align-items: flex-start;
-    margin-top: 2rem;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--grey);
 }
 
 #planning .schedule-mobile {
@@ -420,7 +442,7 @@ section:nth-child(even) {
 #planning .level-ages {
     margin-top: 3rem;
     padding: 2rem 2.25rem;
-    border: 1px solid var(--grey-light);
+    border: 0;
     border-radius: 3px;
     color: var(--black);
 }
@@ -439,16 +461,17 @@ section:nth-child(even) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 2.5rem;
     row-gap: 2rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 #planning .level-ages-group {
     min-width: 0;
+    height: 100%;
 }
 
 #planning .level-ages-group + .level-ages-group {
     padding-left: 2.5rem;
-    border-left: 1px solid #d7d7d7;
+    border-left: 0;
 }
 
 #planning .level-ages-group h3 {

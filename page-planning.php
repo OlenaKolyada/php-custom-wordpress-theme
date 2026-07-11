@@ -18,8 +18,6 @@ get_header();
     <main class="main" id="planning">
         <section class="section-wrap section-first no-padding-top">
             <div class="container">
-                <h1>Planning</h1>
-
                 <div class="section-row">
                     <div class="section-content-text">
 
@@ -36,209 +34,71 @@ get_header();
 
                             <!-- Morning Row -->
                             <div class="schedule-row">
-
-                                <!-- Monday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="mon"
-                                        data-time="morning"
-                                ></div>
-
-                                <!-- Tuesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="tue"
-                                        data-time="morning"
-                                ></div>
-
-                                <!-- Wednesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="wed"
-                                        data-time="morning"
-                                >
-                                    <a
-                                            href="#modal-eveil"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell">
+                                    <a href="#modal-eveil" class="popup-schedule">
                                         <div class="schedule-item eveil magnific-schedule">
                                             <h5>Éveil</h5>
                                             <span>09h45‑10h30 · S2</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-init"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-init" class="popup-schedule">
                                         <div class="schedule-item init magnific-schedule">
                                             <h5>Initiation</h5>
                                             <span>10h30‑11h30 · S2</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-elem-1"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-elem-1" class="popup-schedule">
                                         <div class="schedule-item elem-1">
                                             <h5>Élémentaire I</h5>
                                             <span>11h30‑12h45 · S2</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Thursday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="thu"
-                                        data-time="morning"
-                                ></div>
-
-                                <!-- Friday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="fri"
-                                        data-time="morning"
-                                ></div>
-
-                                <!-- Saturday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="sat"
-                                        data-time="morning"
-                                ></div>
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell"></div>
                             </div>
 
                             <!-- Afternoon Row -->
                             <div class="schedule-row">
-
-                                <!-- Monday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="mon"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-barre-a-terre"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-barre-a-terre" class="popup-schedule">
                                         <div class="schedule-item barre-a-terre">
                                             <h5>Barre à Terre</h5>
                                             <span>12h30‑13h30 · S2</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Tuesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="tue"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-contemporain-intermediare"
-                                            class="popup-schedule"
-                                    >
-                                        <div class="schedule-item contemporain-intermediare">
-                                            <h5>Contemporain Intermédiaire</h5>
-                                            <span>17h30‑19h00 · S1</span>
-                                        </div>
-                                    </a>
-
-                                    <a
-                                            href="#modal-preparation-concours"
-                                            class="popup-schedule"
-                                    >
-                                        <div class="schedule-item preparation-concours">
-                                            <h5>Préparation Concours</h5>
-                                            <span>17h30‑18h45 · S2</span>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- Wednesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="wed"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-preparation-concours"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell">
+                                    <a href="#modal-preparation-concours" class="popup-schedule">
                                         <div class="schedule-item preparation-concours">
                                             <h5>Préparation Concours</h5>
                                             <span>14h00‑16h15 · S2</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-elem-1"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-elem-1" class="popup-schedule">
                                         <div class="schedule-item elem-1">
                                             <h5>Élémentaire I</h5>
                                             <span>16h15‑17h30 · S2</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Thursday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="thu"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-contemporain-debutant"
-                                            class="popup-schedule"
-                                    >
-                                        <div class="schedule-item contemporain-debutant">
-                                            <h5>Contemporain Débutant</h5>
-                                            <span>17h30‑18h45 · S2</span>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- Friday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="fri"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-preparation-concours"
-                                            class="popup-schedule"
-                                    >
-                                        <div class="schedule-item preparation-concours">
-                                            <h5>Préparation Concours</h5>
-                                            <span>17h30‑18h45 · S1</span>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- Saturday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="sat"
-                                        data-time="afternoon"
-                                >
-                                    <a
-                                            href="#modal-cours-particuliers"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell"></div>
+                                <div class="schedule-cell">
+                                    <a href="#modal-cours-particuliers" class="popup-schedule">
                                         <div class="schedule-item cours-particuliers">
                                             <h5>Cours Particuliers</h5>
+                                            <span>Horaires personnalisés</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-preparation-concours"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-preparation-concours" class="popup-schedule">
                                         <div class="schedule-item preparation-concours">
                                             <h5>Préparation Concours</h5>
+                                            <span>Horaires personnalisés</span>
                                         </div>
                                     </a>
                                 </div>
@@ -246,167 +106,107 @@ get_header();
 
                             <!-- Evening Row -->
                             <div class="schedule-row">
-
-                                <!-- Monday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="mon"
-                                        data-time="evening"
-                                >
-                                    <a
-                                            href="#modal-elem-2"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-elem-2" class="popup-schedule">
                                         <div class="schedule-item elem-2">
                                             <h5>Élémentaire II</h5>
                                             <span>17h45‑19h15 · S1</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-classique-adultes-inter-avance"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-classique-adultes-inter-avance" class="popup-schedule">
                                         <div class="schedule-item classique-adultes-inter-avance">
-                                            <h5>
-                                                Classique Adultes
-                                                Inter‑Avancé
-                                            </h5>
+                                            <h5>Classique Adultes Inter‑Avancé</h5>
                                             <span>19h15‑20h45 · S1</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Tuesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="tue"
-                                        data-time="evening"
-                                >
-                                    <a
-                                            href="#modal-classique-avance"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-contemporain-intermediare" class="popup-schedule">
+                                        <div class="schedule-item contemporain-intermediare">
+                                            <h5>Contemporain Intermédiaire</h5>
+                                            <span>17h30‑19h00 · S1</span>
+                                        </div>
+                                    </a>
+                                    <a href="#modal-preparation-concours" class="popup-schedule">
+                                        <div class="schedule-item preparation-concours">
+                                            <h5>Préparation Concours</h5>
+                                            <span>17h30‑18h45 · S2</span>
+                                        </div>
+                                    </a>
+                                    <a href="#modal-classique-avance" class="popup-schedule">
                                         <div class="schedule-item classique-avance">
                                             <h5>Classique Avancé</h5>
                                             <span>18h45‑20h15 · S2</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-contemporain-adultes-debutant-inter"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-contemporain-adultes-debutant-inter" class="popup-schedule">
                                         <div class="schedule-item contemporain-adultes-debutant-inter">
-                                            <h5>
-                                                Contemporain Adultes
-                                                Débutant‑Inter
-                                            </h5>
+                                            <h5>Contemporain Adultes Débutant‑Inter</h5>
                                             <span>19h15‑20h45 · S1</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Wednesday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="wed"
-                                        data-time="evening"
-                                >
-                                    <a
-                                            href="#modal-elem-3"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-elem-3" class="popup-schedule">
                                         <div class="schedule-item elem-3">
                                             <h5>Élémentaire III</h5>
                                             <span>17h45‑19h15 · S2</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-barre-a-terre"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-barre-a-terre" class="popup-schedule">
                                         <div class="schedule-item barre-a-terre">
                                             <h5>Barre à Terre</h5>
                                             <span>19h30‑20h30 · S1</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Thursday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="thu"
-                                        data-time="evening"
-                                >
-                                    <a
-                                            href="#modal-elem-2"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-contemporain-debutant" class="popup-schedule">
+                                        <div class="schedule-item contemporain-debutant">
+                                            <h5>Contemporain Débutant</h5>
+                                            <span>17h30‑18h45 · S2</span>
+                                        </div>
+                                    </a>
+                                    <a href="#modal-elem-2" class="popup-schedule">
                                         <div class="schedule-item elem-2">
                                             <h5>Élémentaire II</h5>
                                             <span>17h45‑19h15 · S1</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-classique-adultes-inter-avance"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-classique-adultes-inter-avance" class="popup-schedule">
                                         <div class="schedule-item classique-adultes-inter-avance">
-                                            <h5>
-                                                Classique Adultes
-                                                Inter‑Avancé
-                                            </h5>
+                                            <h5>Classique Adultes Inter‑Avancé</h5>
                                             <span>19h15‑20h45 · S1</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-contemporain-avance"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-contemporain-avance" class="popup-schedule">
                                         <div class="schedule-item contemporain-avance">
                                             <h5>Contemporain Avancé</h5>
                                             <span>19h00‑20h30 · S2</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Friday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="fri"
-                                        data-time="evening"
-                                >
-                                    <a
-                                            href="#modal-classique-avance"
-                                            class="popup-schedule"
-                                    >
+                                <div class="schedule-cell">
+                                    <a href="#modal-preparation-concours" class="popup-schedule">
+                                        <div class="schedule-item preparation-concours">
+                                            <h5>Préparation Concours</h5>
+                                            <span>17h30‑18h45 · S1</span>
+                                        </div>
+                                    </a>
+                                    <a href="#modal-classique-avance" class="popup-schedule">
                                         <div class="schedule-item classique-avance">
                                             <h5>Classique Avancé</h5>
                                             <span>18h45‑20h15 · S1</span>
                                         </div>
                                     </a>
-
-                                    <a
-                                            href="#modal-elem-3"
-                                            class="popup-schedule"
-                                    >
+                                    <a href="#modal-elem-3" class="popup-schedule">
                                         <div class="schedule-item elem-3">
                                             <h5>Élémentaire III</h5>
                                             <span>18h45‑20h15 · S2</span>
                                         </div>
                                     </a>
                                 </div>
-
-                                <!-- Saturday -->
-                                <div
-                                        class="schedule-cell"
-                                        data-day="sat"
-                                        data-time="evening"
-                                ></div>
+                                <div class="schedule-cell"></div>
                             </div>
                         </div>
                         <!-- Desktop Schedule END -->
@@ -727,6 +527,7 @@ get_header();
                                         >
                                             <div class="schedule-item cours-particuliers">
                                                 <h5>Cours Particuliers</h5>
+                                                <span>Horaires personnalisés</span>
                                             </div>
                                         </a>
 
@@ -736,6 +537,7 @@ get_header();
                                         >
                                             <div class="schedule-item preparation-concours">
                                                 <h5>Préparation Concours</h5>
+                                                <span>Horaires personnalisés</span>
                                             </div>
                                         </a>
                                     </div>
@@ -743,6 +545,12 @@ get_header();
                             </div>
                         </div>
                         <!-- Mobile Schedule END -->
+
+                        <div class="section-text">
+                            <p>
+                                Planning susceptible de modification
+                            </p>
+                        </div>
 
                         <!-- Ages Section START -->
                         <div class="level-ages">
@@ -814,11 +622,7 @@ get_header();
                         </div>
                         <!-- Ages Section END -->
 
-                        <div class="section-text">
-                            <p>
-                                Planning susceptible de modification.
-                            </p>
-                        </div>
+
 
                     </div>
                 </div>
@@ -1105,7 +909,6 @@ get_header();
 <?php
 // get_sidebar();
 get_footer();
-
 
 
 
