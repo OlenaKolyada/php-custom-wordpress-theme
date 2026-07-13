@@ -103,10 +103,12 @@ section:nth-child(even) {
     font-size: 0.9rem;
     font-weight: bold;
     line-height: 1.25;
+    margin: 0.7rem 0 0.2rem 0;
 }
 
 #enfants-classique #niveaux .cards.six .card-subtitle {
     font-size: 0.75rem;
+    margin-top: 0;
 }
 
 #enfants-classique #card-eveil {
@@ -774,10 +776,12 @@ section:nth-child(even) {
 
     #enfants-classique #niveaux .cards.six .card-title {
         font-size: 0.78rem;
+        margin: 0.7rem 0 0.2rem 0;
     }
 
     #enfants-classique #niveaux .cards.six .card-subtitle {
         font-size: 0.68rem;
+        margin-top: 0;
     }
 
     #planning .section-content-text,
@@ -964,10 +968,12 @@ section:nth-child(even) {
 
     #enfants-classique #niveaux .cards.six .card-title {
         font-size: 0.9rem;
+        margin: 0.7rem 0 0.2rem 0;
     }
 
     #enfants-classique #niveaux .cards.six .card-subtitle {
         font-size: 0.75rem;
+        margin-top: 0;
     }
 
     #planning .schedule-item {
@@ -1241,10 +1247,12 @@ section:nth-child(even) {
 
     #enfants-classique #niveaux .cards.six .card-title {
         font-size: 0.95rem;
+        margin: 0.7rem 0 0.2rem 0;
     }
 
     #enfants-classique #niveaux .cards.six .card-subtitle {
         font-size: 0.8rem;
+        margin-top: 0;
     }
 
     #enfants-classique .swiper-section-small .swiper-slide img {

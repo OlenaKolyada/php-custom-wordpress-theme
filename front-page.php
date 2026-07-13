@@ -462,7 +462,7 @@ get_header();
 		<li><a href="#danse" data-target="danse" data-offset="70" data-label="Danse"></a></li>
 		<li><a href="#loisir" data-target="loisir" data-offset="70" data-label="Loisir"></a></li>
 		<li><a href="#pro" data-target="pro" data-offset="70" data-label="Pro"></a></li>
-		<li><a href="#stages" data-target="stages" data-offset="70" data-label="Stages"></a></li>
+		<li><a href="#stages-main" data-target="stages-main" data-offset="70" data-label="Stages"></a></li>
 		<li><a href="#main-gallery" data-target="main-gallery" data-offset="70" data-label="Galerie"></a></li>
 		<li><a href="#main-contacts" data-target="main-contacts" data-offset="20" data-label="Contacts"></a></li>
 	</ul>
