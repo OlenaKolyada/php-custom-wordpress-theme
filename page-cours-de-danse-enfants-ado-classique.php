@@ -23,11 +23,10 @@ get_header();
                     <div class="section-row">
                         <div class="section-content-text">
                             <div class="section-text">
-                                <p>Le Cours de Danse Enfants-Ado Classique est proposé dès le niveau élémentaire à partir de 8 ans.
-                                    L’apprentissage et le perfectionnement de la technique de la danse classique passe par la connaissance de son langage et de son Histoire.
-                                    Chaque cours se compose d’un travail à la barre puis d’un travail au milieu à travers des enchaînements de plus en plus complexes dont
-                                    la technique évolue au fil des âges. Le travail de pointes pour les filles est abordé à partir des élémentaires 3 avec
-                                    une attention toute particulière portée à cette étape. Un travail spécifique pour les garçons est proposé à partir de ce même niveau.</p>
+                                <p>Le Cours de Danse Enfants-Ado Classique est proposé dès l’âge de 4 ans, avec un parcours progressif allant du Cours d’Éveil à l’Initiation, puis aux niveaux Élémentaires et Avancé. L’apprentissage et le
+                                    perfectionnement de la technique de la danse classique passent par la connaissance de son langage et de son Histoire. Chaque cours se compose d’un travail à la barre puis d’un travail au milieu à travers des
+                                    enchaînements de plus en plus complexes, dont la technique évolue au fil des âges. Le travail de pointes pour les filles est abordé à partir des Élémentaires 3, avec une attention toute particulière portée à
+                                    cette étape. Un travail spécifique pour les garçons est proposé à partir de ce même niveau.</p>
                             </div>
                         </div>
                     </div>
