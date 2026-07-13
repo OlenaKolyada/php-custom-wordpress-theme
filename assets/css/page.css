@@ -89,6 +89,30 @@ section:nth-child(even) {
     margin-top: 2rem;
 }
 
+#enfants-classique #niveaux .cards.six {
+    margin-top: 1.5rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#enfants-classique #niveaux .cards.six .card-thumb img {
+    width: 9.5rem;
+}
+
+#enfants-classique #niveaux .cards.six .card-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+#enfants-classique #niveaux .cards.six .card-subtitle {
+    font-size: 0.75rem;
+}
+
+#enfants-classique #card-eveil {
+    cursor: default;
+}
+
 #enfants-classique .swiper-section-small {
     width: 360px;
     height: 480px;
@@ -709,6 +733,22 @@ section:nth-child(even) {
 @media screen and (max-width: 1200px) {
 
 
+    #enfants-classique #niveaux .cards.six {
+        gap: 0.7rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-thumb img {
+        width: 8.5rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-title {
+        font-size: 0.78rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-subtitle {
+        font-size: 0.68rem;
+    }
+
     #planning .section-content-text,
     #planning .schedule-row {
         width: 100%;
@@ -880,6 +920,26 @@ section:nth-child(even) {
 
     .professeurs .section-content-center:has(> .cards) {
         align-items: center;
+    }
+
+    #enfants-classique #niveaux .cards.six {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        justify-items: center;
+        gap: 1.5rem 1rem;
+        margin: 1.5rem auto 0;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-thumb img {
+        width: 10rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-title {
+        font-size: 0.9rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-subtitle {
+        font-size: 0.75rem;
     }
 
     #planning .schedule-item {
@@ -1140,6 +1200,25 @@ section:nth-child(even) {
         width: 80vw;
     }
 
+    #enfants-classique #niveaux .cards.six {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        gap: 1.5rem 1rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-thumb img {
+        width: 10.75rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-title {
+        font-size: 0.95rem;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-subtitle {
+        font-size: 0.8rem;
+    }
+
     #enfants-classique .swiper-section-small .swiper-slide img {
         height: auto;
         aspect-ratio: 3/4;
@@ -1238,6 +1317,16 @@ section:nth-child(even) {
 
     #studio .swiper-frame {
         width: 85vw;
+    }
+
+    #enfants-classique #niveaux .cards.six {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #enfants-classique #niveaux .cards.six .card-thumb img {
+        width: 15rem;
     }
 
     #enfants-classique .section-content-image .frame {

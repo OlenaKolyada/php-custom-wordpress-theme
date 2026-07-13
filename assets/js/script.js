@@ -153,6 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    setupSectionScroll('#card-eveil', '#eveil', 70);
     setupSectionScroll('#card-init', '#init', 70);
     setupSectionScroll('#card-elem1', '#elem1', 70);
     setupSectionScroll('#card-elem2', '#elem2', 70);

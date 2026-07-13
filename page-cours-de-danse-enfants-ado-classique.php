@@ -34,7 +34,17 @@ get_header();
 
                     <div class="section-row">
                         <div class="section-content-center">
-                            <div class="cards five">
+                            <div class="cards six">
+                                <div class="card-item" id="card-eveil">
+                                    <div class="frame">
+                                        <div class="card-thumb">
+                                            <img src="<?php echo get_template_directory_uri();?>/assets/images/thumbs/eveil.jpg" alt="Cours d’Éveil" />
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title">Cours d’Éveil</h5>
+                                    <p class="card-subtitle">4-5 ans</p>
+                                </div>
+
                                 <div class="card-item" id="card-init">
                                     <div class="frame">
                                         <div class="card-thumb">
@@ -90,6 +100,48 @@ get_header();
                 </div>
             </section>
             <!--	Niveaux END-->
+
+            <!--	Eveil START-->
+            <section class="section-wrap" id="eveil">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content-text">
+                            <div class="section-text">
+                                <h2 class="title-has-subtitle">Cours d’Éveil</h2>
+                                <p class="subtitle">4-5 ans</p>
+                                <p>Les enfants peuvent découvrir la danse dès l’âge de 4 ans à travers des cours d’éveil, spécialement conçus pour répondre à leurs besoins et à leur développement.</p>
+                                <p>À cet âge, un premier niveau d’autonomie leur permet de profiter pleinement des activités proposées. Par ailleurs, la réglementation française prévoit que l’enseignement de la danse débute à partir de 4 ans, afin de respecter le développement physique et psychomoteur de l’enfant.</p>
+                                <p>Entre 4 et 5 ans, les cours d’éveil offrent un véritable terrain d’exploration. Les enfants découvrent leur corps et ses possibilités à travers le jeu, développent leur motricité, leur coordination, leur équilibre et leur conscience de l’espace. Ils expérimentent les déplacements, les sauts, les tours, les changements de rythme, les niveaux, les directions, la musicalité, le souffle et le plaisir du mouvement.</p>
+                                <p>L’objectif n’est pas l’apprentissage d’une technique codifiée, mais l’éveil de la sensibilité artistique, de la créativité et de l’expression corporelle. Chaque enfant est encouragé à imaginer, ressentir et inventer sa propre danse dans un cadre ludique, bienveillant et adapté à son âge.</p>
+                                <p>Ces premières années constituent une étape essentielle : elles permettent d’acquérir des bases solides qui faciliteront ensuite l’apprentissage des différentes techniques de danse, dans le respect du rythme de chaque enfant.</p>
+                                <p><strong>Mercredi 10h-10h45</strong></p>
+                                <div class="niveau-button">
+                                    <a href="<?php echo get_permalink(124); ?>" class="btn btn-primary-color">S'inscrire</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-content-image">
+                            <div class="frame">
+                                <div class="swiper swiper-section-small">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <a href="<?php echo get_template_directory_uri();?>/assets/images/loisir/enfants-ado-classique/eveil/eveil1.jpg" class="popup-gallery" title="Mikhalev Lanssens Ballet Academy, Cours d’Éveil">
+                                                <img src="<?php echo get_template_directory_uri();?>/assets/images/loisir/enfants-ado-classique/eveil/eveil1.jpg"
+                                                     alt="Mikhalev Lanssens Ballet Academy, Cours d’Éveil"
+                                                     title="Mikhalev Lanssens Ballet Academy, Cours d’Éveil">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--	Eveil END-->
 
             <!--	Initiation START-->
             <section class="section-wrap" id="init">
@@ -391,6 +443,7 @@ get_header();
         <nav class="scroll-dots-nav" aria-label="Navigation de section">
             <ul>
                 <li><a href="#niveaux" data-target="niveaux" data-offset="150" data-label="Niveaux"></a></li>
+                <li><a href="#eveil" data-target="eveil" data-offset="70" data-label="Cours d’Éveil"></a></li>
                 <li><a href="#init" data-target="init" data-offset="70" data-label="Initiation"></a></li>
                 <li><a href="#elem1" data-target="elem1" data-offset="70" data-label="Elémentaire 1"></a></li>
                 <li><a href="#elem2" data-target="elem2" data-offset="70" data-label="Elémentaire 2"></a></li>
