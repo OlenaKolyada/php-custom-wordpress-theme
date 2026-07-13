@@ -17,7 +17,7 @@ get_header();
 
     <main class="main" id="tarifs">
 
-        <!--	Tarifs START-->
+        <!-- Tarifs START -->
             <section class="section-wrap section-first no-padding-top">
                 <div class="container">
                     <h1>Tarifs</h1>
@@ -25,48 +25,14 @@ get_header();
                         <div class="section-content-text">
                             <div class="section-text">
                                 <p>Les forfaits de la MLBA tiennent compte du calendrier scolaire.</p>
-                                <p><strong>10 % de réduction</strong> sur le 2<sup>e</sup> forfait d'une même famille (le moins élevé des deux forfaits).</p>
                                 <p>La MLBA propose des facilités de paiement mensuel.</p>
 
-                                <h4>Frais d'adhésion</h4>
-                                <div class="tarif-table small">
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1 élève</div>
-                                        <div class="tarif-cell">30 €</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">2 élèves de la même famille</div>
-                                        <div class="tarif-cell">50 €</div>
-                                    </div>
-                                </div>
-
-                                <h4>Cours à l'unité</h4>
-                                <div class="tarif-table small">
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h30</div>
-                                        <div class="tarif-cell">18 €</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">Carte 10 cours (1h30)</div>
-                                        <div class="tarif-cell">170 €</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h</div>
-                                        <div class="tarif-cell">16 €</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">Carte 10 cours (1h)</div>
-                                        <div class="tarif-cell">150 €</div>
-                                    </div>
-                                </div>
-
-                                <h4>Forfaits annuels</h4>
                                 <div class="tarif-table large">
                                     <div class="tarif-header">
                                         <div class="tarif-cell first-cell"></div>
                                         <div class="tarif-cell highlighted">
                                             <div class="highlight"></div>
-                                            Tarif annuel
+                                            Paiement annuel
                                         </div>
                                         <div class="tarif-cell">Paiement mensuel</div>
                                     </div>
@@ -117,7 +83,7 @@ get_header();
                                     </div>
                                 </div>
 
-        <!--                        Table Mobile Only START-->
+        <!-- Table Mobile Only START -->
                                 <div class="tarif-table small mobile-only">
                                     <div class="tarif-row">
                                         <div class="tarif-cell first-cell">45min</div>
@@ -183,7 +149,42 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
-        <!--                        Table Mobile Only END-->
+        <!-- Table Mobile Only END -->
+
+                                <h4 class="tarifs-spaced-heading">Cours à l'unité</h4>
+                                <div class="tarif-table small">
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h30</div>
+                                        <div class="tarif-cell">18 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">Carte 10 cours (1h30)</div>
+                                        <div class="tarif-cell">170 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h</div>
+                                        <div class="tarif-cell">16 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">Carte 10 cours (1h)</div>
+                                        <div class="tarif-cell">150 €</div>
+                                    </div>
+                                </div>
+
+                                <h4 class="tarifs-spaced-heading tarifs-table-heading">Frais d'adhésion</h4>
+                                <div class="tarif-table small">
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1 élève</div>
+                                        <div class="tarif-cell">30 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">2 élèves de la même famille</div>
+                                        <div class="tarif-cell">50 €</div>
+                                    </div>
+                                </div>
+
+                                <h4>Réduction familiale</h4>
+                                <p><strong>10 % de réduction</strong> sur le 2<sup>e</sup> forfait d'une même famille (le moins élevé des deux forfaits).</p>
                             </div>
                         </div>
                     </div>

@@ -554,14 +554,31 @@ section:nth-child(even) {
 }
 
 #tarifs h4:last-of-type {
-    margin: 6rem 0 -3rem;
+    margin: 6rem 0 2rem;
+}
+
+#tarifs .tarifs-spaced-heading {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#tarifs .tarifs-table-heading {
+    margin-bottom: 3rem;
+}
+
+#tarifs .section-content-text {
+    align-items: flex-start;
+}
+
+#tarifs .section-text {
+    width: 100%;
 }
 
 #tarifs .tarif-table {
     width: 66rem;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
     margin-bottom: 4rem;
     font-size: 1rem;
     text-align: center;
@@ -573,7 +590,29 @@ section:nth-child(even) {
 }
 
 #tarifs .tarif-table.large {
+    width: 43rem;
+    max-width: 100%;
+    grid-template-columns: 1.8fr 1fr 1fr;
+    margin-top: 6rem;
     margin-bottom: 0;
+    position: relative;
+    --tarif-gap: 1.25rem;
+    --annual-column-width: calc((100% - (2 * var(--tarif-gap))) / 3.8);
+    --annual-column-left: calc((((100% - (2 * var(--tarif-gap))) / 3.8) * 1.8) + var(--tarif-gap));
+    --annual-highlight-width: 12rem;
+    --annual-highlight-left: calc(var(--annual-column-left) + ((var(--annual-column-width) - var(--annual-highlight-width)) / 2));
+}
+
+#tarifs .tarif-table.large::before {
+    content: "";
+    position: absolute;
+    top: -1rem;
+    bottom: -1rem;
+    left: var(--annual-highlight-left);
+    width: var(--annual-highlight-width);
+    background: var(--grey-extra-light);
+    border-radius: 3rem;
+    z-index: 0;
 }
 
 #tarifs .tarif-header {
@@ -598,13 +637,13 @@ section:nth-child(even) {
 
 #tarifs .first-cell {
     text-align: left;
-    margin-left: 1rem;
+    margin-left: 0;
     max-width: 15rem;
 }
 
 #tarifs .first-cell-large {
     text-align: left;
-    margin-left: 1rem;
+    margin-left: 0;
     max-width: 25rem;
 }
 
@@ -622,15 +661,7 @@ section:nth-child(even) {
 }
 
 #tarifs .highlight {
-    position: absolute;
-    background: var(--grey-extra-light);
-    border-radius: 3rem;
-    padding: 2rem;
-    width: 7rem;
-    height: 39rem;
-    z-index: -1;
-    top: -2.2rem;
-    right: 5.35rem;
+    display: none;
 }
 /*Tarifs END*/
 
@@ -766,6 +797,7 @@ section:nth-child(even) {
 
     #tarifs .tarif-table.large {
         width: 100%;
+        --annual-highlight-width: 12rem;
     }
 
     #tarifs .tarif-table.small {
@@ -776,10 +808,6 @@ section:nth-child(even) {
         justify-content: center;
         gap: 1rem;
         margin-top: 1rem;
-    }
-
-    #tarifs .highlight {
-        right: 4.4rem;
     }
 
     #stages-category .stages-grid {
@@ -1055,10 +1083,6 @@ section:nth-child(even) {
         max-width: none;
     }
 
-    #tarifs .highlight {
-        right: 3rem;
-    }
-
     #section-pro .section-content-center .section-text {
         width: 100%;
     }
@@ -1120,6 +1144,10 @@ section:nth-child(even) {
 
     #tarifs .tarif-table.large {
         display: none;
+    }
+
+    #tarifs .tarif-table.mobile-only {
+        margin-top: 4rem;
     }
 
     #tarifs h4:first-of-type {
@@ -1452,6 +1480,11 @@ section:nth-child(even) {
 }
 
 @media screen and (max-width: 375px) {
+    #tarifs .mobile-only .highlighted {
+        padding: 0.5rem 0.75rem;
+        transform: translateX(0.5rem);
+    }
+
     #planning .level-ages-title {
         font-size: 1.75rem;
     }
