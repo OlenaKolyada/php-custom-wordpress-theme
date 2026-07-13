@@ -145,6 +145,17 @@ textarea {
     outline: none;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+    padding: revert;
+    margin: revert;
+    border: revert;
+    border-radius: revert;
+    background-color: revert;
+    transition: none;
+    outline: revert;
+}
+
 input::placeholder,
 textarea::placeholder,
 select::placeholder {
