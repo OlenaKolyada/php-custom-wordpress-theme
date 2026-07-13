@@ -328,13 +328,27 @@
 }
 
 #inscription a {
-    color: var(--black);
-    text-decoration: underline;
+    color: var(--primary-color);
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
 #inscription a:hover {
     color: var(--primary-color);
+    text-decoration: underline;
+}
+
+#inscription a.plain-phone-link,
+#inscription a.plain-phone-link:visited,
+#inscription a.plain-phone-link:focus,
+#inscription a.plain-phone-link:active {
+    color: var(--black);
+    text-decoration: none;
+}
+
+#inscription a.plain-phone-link:hover {
+    color: var(--black);
+    text-decoration: underline;
 }
 
 #inscription .participant-2,

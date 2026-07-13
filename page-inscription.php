@@ -15,14 +15,14 @@
 get_header();
 ?>
 
-<main class="main" id="inscription">
+<main class="main inscription-page" id="inscription">
     <section class="section-wrap section-first no-padding-top">
         <div class="container">
             <h1>Inscription</h1>
             <div class="section-row">
                 <div class="section-content-center">
                     <p class="section-center-margin-right-auto">L’adhésion, l’inscription, ainsi que les règlements par prélèvement sont à effectuer sur le <strong><a href="https://www.helloasso.com/associations/mikhalev-lanssens-ballet-academy/adhesions/adhesion-et-inscription-2025-2026" target="_blank">Plateforme HelloAsso</a></strong>.</p>
-                    <p class="section-center-margin-right-auto">Pour les inscriptions de 2 personnes ou plus, d’une même famille, merci de contacter le <a href="tel:+33609756230">0609756230</a> pour le calcul du forfait à -10% et les modalités de paiement.</p>
+                    <p class="section-center-margin-right-auto">Pour les inscriptions de 2 personnes ou plus, d’une même famille, merci de contacter le <a class="plain-phone-link" href="tel:+33609756230">0609756230</a> pour le calcul du forfait à -10% et les modalités de paiement.</p>
 <!--                    <div class="inscription-dates">-->
 <!--                        <h2><span>Dates de permanence (informations/inscriptions)&nbsp;:</span></h2>-->
 <!--                        <ul>-->

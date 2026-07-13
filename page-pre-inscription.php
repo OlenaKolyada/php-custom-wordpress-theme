@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying all pages
- * Template name: Inscription
+ * Template name: Pre-inscription
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site may use a
@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<main class="main" id="inscription">
+<main class="main pre-inscription-page" id="inscription">
     <section class="section-wrap section-first no-padding-top">
         <div class="container">
             <h1>Inscription</h1>
