@@ -25,142 +25,162 @@ get_header();
                         <div class="section-content-text">
                             <div class="section-text">
                                 <p>Les forfaits de la MLBA tiennent compte du calendrier scolaire.</p>
-                                <p><strong>5% de réduction</strong> dès le 2<sup>e</sup> membre d'une même famille (le moins élevé des deux forfaits).</p>
-                                <p>La MLBA propose des facilités de paiement, en 3 ( septembre-janvier-avril) ou 10 fois (aux alentours du 5 de chaque mois), par chèques datés du jour de l’inscription.</p>
+                                <p><strong>10 % de réduction</strong> sur le 2<sup>e</sup> forfait d'une même famille (le moins élevé des deux forfaits).</p>
+                                <p>La MLBA propose des facilités de paiement mensuel.</p>
 
                                 <h4>Frais d'adhésion</h4>
                                 <div class="tarif-table small">
                                     <div class="tarif-row">
                                         <div class="tarif-cell first-cell">1 élève</div>
-                                        <div class="tarif-cell">30€</div>
-
+                                        <div class="tarif-cell">30 €</div>
                                     </div>
                                     <div class="tarif-row">
                                         <div class="tarif-cell first-cell">2 élèves de la même famille</div>
-                                        <div class="tarif-cell">50€</div>
-
+                                        <div class="tarif-cell">50 €</div>
                                     </div>
                                 </div>
 
-                                <h4>Cours à l’unité</h4>
+                                <h4>Cours à l'unité</h4>
                                 <div class="tarif-table small">
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1 cours</div>
-                                        <div class="tarif-cell">15€</div>
-
+                                        <div class="tarif-cell first-cell">1h30</div>
+                                        <div class="tarif-cell">18 €</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell-large">Carte de 10 cours<br><em>(la carte est dématérialisée, décompte effectué sur chaque cours par le professeur, et utilisable de septembre à fin juin.)</em></div>
-                                        <div class="tarif-cell">150€</div>
-
+                                        <div class="tarif-cell first-cell">Carte 10 cours (1h30)</div>
+                                        <div class="tarif-cell">170 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h</div>
+                                        <div class="tarif-cell">16 €</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">Carte 10 cours (1h)</div>
+                                        <div class="tarif-cell">150 €</div>
                                     </div>
                                 </div>
 
                                 <h4>Forfaits annuels</h4>
                                 <div class="tarif-table large">
-
                                     <div class="tarif-header">
                                         <div class="tarif-cell first-cell"></div>
                                         <div class="tarif-cell highlighted">
                                             <div class="highlight"></div>
-                                            Paiement<br>en 1 fois<br>(- 5%)</div>
-                                        <div class="tarif-cell">Paiement<br>en 3 fois</div>
-                                        <div class="tarif-cell">Paiement<br>en 10 fois</div>
+                                            Tarif annuel
+                                        </div>
+                                        <div class="tarif-cell">Paiement mensuel</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 475€</div>
-                                        <div class="tarif-cell">3 x 165€</div>
-                                        <div class="tarif-cell">10 x 50€</div>
+                                        <div class="tarif-cell first-cell">45min</div>
+                                        <div class="tarif-cell highlighted">380 € / an</div>
+                                        <div class="tarif-cell">38 € / mois</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h30 / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 522€</div>
-                                        <div class="tarif-cell">3 x 183€</div>
-                                        <div class="tarif-cell">10 x 55€</div>
+                                        <div class="tarif-cell first-cell">1h</div>
+                                        <div class="tarif-cell highlighted">450 € / an</div>
+                                        <div class="tarif-cell">45 € / mois</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">2 x 1h / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 684€</div>
-                                        <div class="tarif-cell">3 x 240€</div>
-                                        <div class="tarif-cell">10 x 72€</div>
+                                        <div class="tarif-cell first-cell">2 × 1h</div>
+                                        <div class="tarif-cell highlighted">750 € / an</div>
+                                        <div class="tarif-cell">75 € / mois</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h + 1h30 / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 807€</div>
-                                        <div class="tarif-cell">3 x 283€</div>
-                                        <div class="tarif-cell">10 x 85€</div>
+                                        <div class="tarif-cell first-cell">1h15</div>
+                                        <div class="tarif-cell highlighted">480 € / an</div>
+                                        <div class="tarif-cell">48 € / mois</div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">2 x 1h30 / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 855€</div>
-                                        <div class="tarif-cell">3 x 300€</div>
-                                        <div class="tarif-cell">10 x 90€</div>
+                                        <div class="tarif-cell first-cell">2 × 1h15</div>
+                                        <div class="tarif-cell highlighted">800 € / an</div>
+                                        <div class="tarif-cell">80 € / mois</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h30</div>
+                                        <div class="tarif-cell highlighted">520 € / an</div>
+                                        <div class="tarif-cell">52 € / mois</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">2 × 1h30</div>
+                                        <div class="tarif-cell highlighted">850 € / an</div>
+                                        <div class="tarif-cell">85 € / mois</div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h + 1h30</div>
+                                        <div class="tarif-cell highlighted">800 € / an</div>
+                                        <div class="tarif-cell">80 € / mois</div>
                                     </div>
                                     <div class="tarif-row">
                                         <div class="tarif-cell first-cell">3 cours / semaine</div>
-                                        <div class="tarif-cell highlighted">1 x 1045€</div>
-                                        <div class="tarif-cell">3 x 366€</div>
-                                        <div class="tarif-cell">10 x 110€</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">Cours en illimité</div>
-                                        <div class="tarif-cell highlighted">1 x 1140€</div>
-                                        <div class="tarif-cell">3 x 400€</div>
-                                        <div class="tarif-cell">10 x 120€</div>
+                                        <div class="tarif-cell highlighted">1 045 € / an</div>
+                                        <div class="tarif-cell">104,50 € / mois</div>
                                     </div>
                                 </div>
 
         <!--                        Table Mobile Only START-->
                                 <div class="tarif-table small mobile-only">
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h / semaine</div>
+                                        <div class="tarif-cell first-cell">45min</div>
                                         <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 475€</strong> <br>(- 5%)</span>
-                                            3 x 165€<br>
-                                            10 x 50€</div>
+                                            <span class="highlighted"><strong>380 € / an</strong></span>
+                                            38 € / mois
+                                        </div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h30 / semaine</div>
+                                        <div class="tarif-cell first-cell">1h</div>
                                         <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 522€</strong> <br>(- 5%)</span>
-                                            3 x 183€<br>
-                                            10 x 55€</div>
+                                            <span class="highlighted"><strong>450 € / an</strong></span>
+                                            45 € / mois
+                                        </div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">2 x 1h / semaine</div>
+                                        <div class="tarif-cell first-cell">2 × 1h</div>
                                         <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 684€</strong> <br>(- 5%)</span>
-                                            3 x 240€<br>
-                                            10 x 72€</div>
+                                            <span class="highlighted"><strong>750 € / an</strong></span>
+                                            75 € / mois
+                                        </div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">1h + 1h30 / semaine</div>
+                                        <div class="tarif-cell first-cell">1h15</div>
                                         <div class="tarif-cell">
-                                              <span class="highlighted"><strong>1 x 807€</strong> <br>(- 5%)</span>
-                                            3 x 283€<br>
-                                            10 x 85€</div>
+                                            <span class="highlighted"><strong>480 € / an</strong></span>
+                                            48 € / mois
+                                        </div>
                                     </div>
                                     <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">2 x 1h30 / semaine</div>
+                                        <div class="tarif-cell first-cell">2 × 1h15</div>
                                         <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 855€</strong> <br>(- 5%)</span>
-                                            3 x 300€<br>
-                                            10 x 90€</div>
+                                            <span class="highlighted"><strong>800 € / an</strong></span>
+                                            80 € / mois
+                                        </div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h30</div>
+                                        <div class="tarif-cell">
+                                            <span class="highlighted"><strong>520 € / an</strong></span>
+                                            52 € / mois
+                                        </div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">2 × 1h30</div>
+                                        <div class="tarif-cell">
+                                            <span class="highlighted"><strong>850 € / an</strong></span>
+                                            85 € / mois
+                                        </div>
+                                    </div>
+                                    <div class="tarif-row">
+                                        <div class="tarif-cell first-cell">1h + 1h30</div>
+                                        <div class="tarif-cell">
+                                            <span class="highlighted"><strong>800 € / an</strong></span>
+                                            80 € / mois
+                                        </div>
                                     </div>
                                     <div class="tarif-row">
                                         <div class="tarif-cell first-cell">3 cours / semaine</div>
                                         <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 1045€</strong> <br>(- 5%)</span>
-                                            3 x 366€<br>
-                                            10 x 110€</div>
-                                    </div>
-                                    <div class="tarif-row">
-                                        <div class="tarif-cell first-cell">Cours en illimité</div>
-                                        <div class="tarif-cell">
-                                            <span class="highlighted"><strong>1 x 1140€</strong> <br>(- 5%)</span>
-                                            3 x 400€<br>
-                                            10 x 120€</div>
+                                            <span class="highlighted"><strong>1 045 € / an</strong></span>
+                                            104,50 € / mois
+                                        </div>
                                     </div>
                                 </div>
         <!--                        Table Mobile Only END-->

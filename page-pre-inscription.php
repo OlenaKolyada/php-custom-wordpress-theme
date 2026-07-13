@@ -22,7 +22,7 @@ get_header();
             <div class="section-row">
                 <div class="section-content-center">
                     <p>L’adhésion, l’inscription, ainsi que les règlements par prélèvement sont à effectuer sur le <strong><a href="https://www.helloasso.com/associations/mikhalev-lanssens-ballet-academy/adhesions/adhesion-et-inscription-2025-2026" target="_blank">Plateforme HelloAsso</a></strong>.</p>
-                    <p>Pour les inscriptions de 2 personnes ou plus, d’une même famille, merci de contacter le <a href="tel:+33609756230">0609756230</a> pour le calcul du forfait à -5% et les modalités de paiement.</p>
+                    <p>Pour les inscriptions de 2 personnes ou plus, d’une même famille, merci de contacter le <a href="tel:+33609756230">0609756230</a> pour le calcul du forfait à -10% et les modalités de paiement.</p>
                     <div class="inscription-dates">
                         <h2><span>Dates de permanence (informations/inscriptions)l&nbsp;:</span></h2>
                         <ul>
