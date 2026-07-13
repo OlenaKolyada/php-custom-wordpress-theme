@@ -252,6 +252,10 @@
     margin-bottom: 2rem;
 }
 
+#main-contacts a:hover {
+    text-decoration: underline;
+}
+
 /* Main Contacts END */
 
 /* Responsive */
