@@ -452,21 +452,20 @@ get_header();
     </section>
     <!--	Laure George END-->
 
-    <!--	Salome Bouyer START-->
-    <section class="section-wrap" id="salome-bouyer">
+    <!--	Marion Menard Ruiz START-->
+    <section class="section-wrap" id="marion-menard-ruiz">
         <div class="container">
             <div class="section-row">
                 <div class="section-content-text">
                     <div class="section-text">
-                        <h2 class="title-has-subtitle">Salomé Bouyer</h2>
+                        <h2 class="title-has-subtitle">Marion Ménard Ruiz</h2>
                         <div class="subtitle">
-                            Professeur de barre à terre, danse contemporaine, Pilates et Yoga
+                            Professeure de barre à terre
                         </div>
-                        <p>Salomé Bouyer est professeure de danse contemporaine, de pilates et actuellement en train de se former au yoga.                        </p>
-                        <p>Elle a suivit un cursus au Conservatoire à rayonnement départemental d’Orléans oú elle a obtenu le certificat d’études chorégraphiques en contemporain. Elle a ensuite poursuivi son parcours au Conservatoire à rayonnement régional de Poitiers où elle a obtenu son diplôme national à orientation professionnelle avec mention en parallèle avec une licence de Lettres en Sciences du langage. Elle est ainsi entrée au pôle supérieur de la musique et de la danse de Bordeaux oú elle a validé son Diplôme d’état de professeure de danse contemporaine. </p>
-                        <p>L’enseignement a toujours été pour elle une évidence. Le partage fait partie intégrante des valeurs qu’elle cultive.</p>
-                        <p>De plus, Salomé a voulu étendre ses aptitudes en passant la certification de pilates matwork 1 et 2. Le pilates représente une continuité parfaite à son parcours de danseuse. Elle a également passé récemment une certification Yoga fondamental pour s’immerger davantage dans l’univers du bien être. </p>
-                        <p>Elle vous proposera un cours de barre à terre qui mêlera des principes de technique de danse classique à des fondamentaux issus des méthodes Pilates et du Yoga. Cette séance vous apportera souplesse, mobilité et viendra aussi renforcer toute la musculature profonde du corps. Les exercices au sol permettent de travailler en décharge du poids, limitant ainsi les contraintes articulaires favorisant un engagement musculaire ciblé, en toute sécurité.</p>
+                        <p>Danseuse depuis l’âge de quatre ans, Marion a grandi au rythme de différentes disciplines : danse classique, jazz, modern jazz et contemporaine, puis yoga dès l’adolescence. Son parcours prend un tournant décisif lorsqu’elle a l’opportunité de travailler avec des professeurs de l’Opéra National de Bordeaux, qui lui transmettent avec bienveillance le goût de l’exigence et de la précision.</p>
+                        <p>Passionnée par tout ce qui touche au corps et au mouvement, elle enrichit progressivement sa formation en se tournant vers le fitness. Titulaire du CQP Instructrice de Fitness, elle enseigne aujourd’hui le renforcement musculaire et le stretching. Animée par une constante envie d’apprendre et de se perfectionner, elle poursuit également une formation en Pilates afin d’élargir encore davantage son champ de compétences.</p>
+                        <p>Marion rejoindra l’équipe de la MLBA dès la rentrée de septembre pour partager cette richesse de parcours à travers des cours de barre à terre, mêlant les principes de la danse classique, le renforcement du centre et le stretching.</p>
+                        <p>Elle interviendra auprès des élèves de la Section Loisir ainsi que de la Section Professionnelle.</p>
                     </div>
                 </div>
                 <div class="section-content-image">
@@ -474,17 +473,10 @@ get_header();
                         <div class="swiper swiper-section-small">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo get_template_directory_uri();?>/assets/images/profs/salome-bouyer/salome-bouyer1.jpg" class="popup-gallery"  title="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga, MLBA">
-                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/profs/salome-bouyer/salome-bouyer1.jpg"
-                                             alt="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga. Professeurs Section Loisir, MLBA"
-                                             title="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga, MLBA">
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="<?php echo get_template_directory_uri();?>/assets/images/profs/salome-bouyer/salome-bouyer2.jpg" class="popup-gallery"  title="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga, MLBA">
-                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/profs/salome-bouyer/salome-bouyer2.jpg"
-                                             alt="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga. Professeurs Section Loisir, MLBA"
-                                             title="Salomé Bouyer, Professeur de barre à terre, danse contemporaine, Pilates et Yoga, MLBA" />
+                                    <a href="<?php echo get_template_directory_uri();?>/assets/images/profs/marion-menard-ruiz/marion-menard-ruiz.jpg" class="popup-gallery"  title="Marion Ménard Ruiz, Professeure de barre à terre, MLBA">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/images/profs/marion-menard-ruiz/marion-menard-ruiz.jpg"
+                                             alt="Marion Ménard Ruiz, Professeure de barre à terre. Professeurs Section Loisir, MLBA"
+                                             title="Marion Ménard Ruiz, Professeure de barre à terre, MLBA">
                                     </a>
                                 </div>
                             </div>
@@ -498,7 +490,7 @@ get_header();
             </div>
         </div>
     </section>
-        <!--	Salome Bouyer END-->
+        <!--	Marion Menard Ruiz END-->
 
 </main>
 
@@ -508,7 +500,7 @@ get_header();
         <li><a href="#roman-mikhalev" data-target="roman-mikhalev" data-offset="150" data-label="Roman Mikhalev"></a></li>
         <li><a href="#corinne-lanssens" data-target="corinne-lanssens" data-offset="70" data-label="Corinne Lanssens"></a></li>
         <li><a href="#laure-george" data-target="laure-george" data-offset="70" data-label="Laure George"></a></li>
-        <li><a href="#salome-bouyer" data-target="salome-bouyer" data-offset="70" data-label="Salomé Bouyer"></a></li>
+        <li><a href="#marion-menard-ruiz" data-target="marion-menard-ruiz" data-offset="70" data-label="Marion Ménard Ruiz"></a></li>
     </ul>
 </nav>
 <!--Scroll Dots Nav END-->
