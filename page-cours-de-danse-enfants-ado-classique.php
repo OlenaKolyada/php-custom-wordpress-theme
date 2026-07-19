@@ -108,11 +108,9 @@ get_header();
                             <div class="section-text">
                                 <h2 class="title-has-subtitle">Cours d’Éveil</h2>
                                 <p class="subtitle">4-5 ans</p>
-                                <p>Les enfants peuvent découvrir la danse dès l’âge de 4 ans à travers des cours d’éveil, spécialement conçus pour répondre à leurs besoins et à leur développement.</p>
-                                <p>À cet âge, un premier niveau d’autonomie leur permet de profiter pleinement des activités proposées. Par ailleurs, la réglementation française prévoit que l’enseignement de la danse débute à partir de 4 ans, afin de respecter le développement physique et psychomoteur de l’enfant.</p>
-                                <p>Entre 4 et 5 ans, les cours d’éveil offrent un véritable terrain d’exploration. Les enfants découvrent leur corps et ses possibilités à travers le jeu, développent leur motricité, leur coordination, leur équilibre et leur conscience de l’espace. Ils expérimentent les déplacements, les sauts, les tours, les changements de rythme, les niveaux, les directions, la musicalité, le souffle et le plaisir du mouvement.</p>
-                                <p>L’objectif n’est pas l’apprentissage d’une technique codifiée, mais l’éveil de la sensibilité artistique, de la créativité et de l’expression corporelle. Chaque enfant est encouragé à imaginer, ressentir et inventer sa propre danse dans un cadre ludique, bienveillant et adapté à son âge.</p>
-                                <p>Ces premières années constituent une étape essentielle : elles permettent d’acquérir des bases solides qui faciliteront ensuite l’apprentissage des différentes techniques de danse, dans le respect du rythme de chaque enfant.</p>
+                                <p>Dès 4 ans, les enfants découvrent la danse à travers des cours d’Éveil spécialement adaptés à leur âge et à leur développement.</p>
+                                <p>Sous forme de jeux et d’explorations, ils développent leur motricité, leur coordination, leur équilibre, leur sens du rythme et leur conscience de l’espace, tout en découvrant le plaisir du mouvement.</p>
+                                <p>L’objectif n’est pas d’apprendre une technique, mais de stimuler leur créativité, leur expression corporelle et leur sensibilité artistique dans un cadre ludique, bienveillant et respectueux du rythme de chacun.</p>
                                 <p><strong>Mercredi 10h-10h45</strong></p>
                                 <div class="niveau-button">
                                     <a href="<?php echo get_permalink(124); ?>" class="btn btn-primary-color">S'inscrire</a>
